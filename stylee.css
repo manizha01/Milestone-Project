@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300|Oswald');
+
+body {
+    margin: 0px;
+}
+
+.logo {
+    margin-left: 50px;
+}
+
+
+#landing-view {
+    position: flex;
+   
+}
+ .menu {
+    font-size: 110%;
+    list-style-type: none;
+    letter-spacing: 4px;
+    float: right;
+   
+} 
+
+.menu a {
+    text-decoration: none;
+    color: inherit;
+}
+.logo, .menu {
+    line-height: 75px;
+}
+.menu li {
+    margin-right: 10px;
+
+}
+
+.size {
+    height: 600px;
+    width: 100%;
+    margin: ;
+}
+
+footer{
+    height: 150px;
+}
+
+.social-networks{
+    text-align: center;
+}
+
+.social-networks li {
+    display:inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #777777;
+}
+
+/* section  */
+
+
+#club-ethos{
+    height: 600px;
+}
+
+#left-about{
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+
+#right-about{
+    padding-top: 30px;
+    width:33%;
+    float: right;
+}
+
+#center-about{
+    width: 33%;
+    margin:0 auto;
+}
+
+hr{
+    border-top: 1px solid #777777;
+    width: 100%;
+    margin: 5px 0;
+    
+}
+
+.left-about-heading{
+    width: 50%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading{
+    width:50%;
+    float:left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading h2{
+    text-align: right;
+}
+
+
+.right-about-heading p {
+    text-align: right;
+}
+
+
+#welcome{
+    margin: 20px 0;
+    text-align: center;
+    font-size: 280%;
+}
+
+#circle-container{
+    width: 300px;
+    height: 300px;
+    padding:30px;
+    border-style: solid;
+    border-color:#cccccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin:0 auto;
+
+}
+ 
+#circle-cover-bg{
+    background: url("https://images.unsplash.com/photo-1503803548695-c2a7b4a5b875?ixlib=rb-1.2.1&w=1000&q=80") no-repeat center center;
+    height:100%;
+    border-radius: 50%;
+}
+
+/* form */
+
+
+
+#form-container {
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    width: 30%;
+    position: absolute;
+    left: 170px;
+    padding: 30px;
+}
+
+#form-section {
+    padding: 50px 0;
+    clear: both;
+    background: url("https://as1.ftcdn.net/jpg/02/27/28/12/500_F_227281209_uAgEbgnOGMxvXbu1CQEmQ031pys5XJSH.jpg") no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+
+.sub-heading {
+    margin-top: 35px;
+    line-height: 10%;
+}
+
+.signup-form {
+    margin-top: 35px;
+}
+
+label {
+    line-height: 100%;
+    margin-bottom: 5px;
+    font-size: 14px;
+    padding: 0;
+}
+
+.text-input {
+    background-color: transparent;
+    color: #fff;
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(254, 254, 254, 0.3);
+    border-radius: 5px;
+}
+
+input:hover,
+input:focus {
+    border-color: #fff;
+}
+
+
+.join-button {
+    border-radius: 3px;
+    color: #999999;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+
+}

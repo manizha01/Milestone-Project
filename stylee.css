@@ -2,23 +2,25 @@
 
 body {
     margin: 0px;
+    font-family: Arial, sans-serif;
 }
 
 .logo {
-    margin-left: 50px;
+ float: left;
+ font-size: 280%;
+ margin-left: 30px;
 }
 
 
-#landing-view {
-    position: flex;
-   
+/*#landing-view {
+    display: flex;
+   position: relative;
 }
+*/
  .menu {
     font-size: 110%;
-    list-style-type: none;
     letter-spacing: 4px;
-    float: right;
-   
+    list-style-type: none;
 } 
 
 .menu a {
@@ -29,14 +31,36 @@ body {
     line-height: 75px;
 }
 .menu li {
-    margin-right: 10px;
+    float: right;
+    margin-right: 30px;
+}
+.menu a:hover {
+    border-bottom: 1px solid #777777;
+
+  }
+.top-left {
+    position: absolute;
+    top: 150px;
+    left: 35px;
+    font-size: 40px;
+    letter-spacing: 4px;
+    color: rgb(12, 12, 14);
+}
+.p-left {
+    position: absolute;
+    top: 200px;
+    left: 35px;
+    font-size: 40px;
+    letter-spacing: 3px;
 
 }
 
 .size {
-    height: 600px;
+    height: 700px;
     width: 100%;
-    margin: ;
+    position: relative;
+    padding-top: 0%;
+    margin-top: -3%;
 }
 
 footer{
@@ -59,7 +83,6 @@ footer{
 }
 
 /* section  */
-
 
 #club-ethos{
     height: 600px;
@@ -135,7 +158,7 @@ hr{
 }
  
 #circle-cover-bg{
-    background: url("https://images.unsplash.com/photo-1503803548695-c2a7b4a5b875?ixlib=rb-1.2.1&w=1000&q=80") no-repeat center center;
+    background: url("https://blog.hubspot.es/hubfs/como-hacer-una-pagina-web-en-html.jpg") no-repeat center center;
     height:100%;
     border-radius: 50%;
 }
@@ -146,7 +169,7 @@ hr{
 
 #form-container {
     color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: rgba(145, 184, 216, 0.6);
     width: 30%;
     position: absolute;
     left: 170px;
@@ -156,10 +179,11 @@ hr{
 #form-section {
     padding: 50px 0;
     clear: both;
-    background: url("https://as1.ftcdn.net/jpg/02/27/28/12/500_F_227281209_uAgEbgnOGMxvXbu1CQEmQ031pys5XJSH.jpg") no-repeat center center;
+    background: url("https://image.shutterstock.com/image-photo/white-transparent-leaf-on-mirror-260nw-1029171697.jpg") no-repeat center center;
     background-size: cover;
     background-position: center;
     height: 900px;
+    margin-top: -3%;
 }
 
 
@@ -204,3 +228,142 @@ input:focus {
     font-size: 16px;
 
 }
+
+/*  about  */
+
+#about-section {
+    padding: 50px 0;
+    background-image: url("https://previews.123rf.com/images/diegograndi/diegograndi1704/diegograndi170400059/75320970-toronto-skyline-toronto-ontario-canada.jpg");
+    clear: both;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    margin-top: -3%;
+}
+#about-container {
+    color: #fff;
+    background-color: rgba(13, 5, 82, 0.6);
+    width: 30%;
+    position: absolute;
+    left: 170px;
+    padding: 50px;
+}
+
+
+@media screen and (max-width: 1393px ){
+    #club-ethos{
+      width: 65%;
+      height: 1200px;
+      margin: 0 auto;
+    }
+  
+    #welcome {
+      padding:30px 0;
+      margin-top:0;
+    }
+  
+    #left-about, #right-about {
+      width:100%;
+      float:left;
+      padding:0;
+    }
+  
+    #center-about{
+      clear:both;
+      width:100%;
+      float: left;
+      padding:0;
+    }
+  
+    #times div {
+      width:100%;
+      clear:both;
+      height:150%;
+      border-style:solid;
+      border-bottom-width:1px;
+      border-bottom-color:#fff;
+      padding:0;
+    }
+  
+    hr {
+      display:none;
+    }
+  
+  }
+
+  @media screen  and (max-width:943px){
+
+    #menu{
+      clear:left;
+      float:left;
+      margin-left:30px;
+      margin-bottom: 20px;
+      line-height:25px;
+    }
+  
+    #cover-text{
+      left:0px;
+    }
+  
+    #club-ethos{
+      width:90%;
+      height:1200px;
+      margin:0 auto;
+    }
+  
+    .left-about-heading, .right-about-heading{
+      width:inherit;
+    }
+  
+    .left-about-heading h2 , .right-about-heading h2{
+        width:100%;
+        text-align:center;
+    }
+  
+  
+    #photo{
+      column-count:3;
+    }
+  
+    #form-container {
+          width: 70%;
+          position: relative;
+          left: 0px;
+          margin: 0 auto;
+          padding: 30px;
+      }
+  
+    .sub-heading {
+          font-size: 80%;
+      }
+  
+  }
+  
+  @media screen and (max-width: 800px){
+    #photo{
+      column-count:2;
+    }
+  }
+  
+  .main-heading{
+    color: white
+  
+  }
+
+  .formal {
+      padding: 20px;
+  }
+  .pa {
+      padding: 20px;
+      font-size: 25px;
+  }
+ 
+  .list {
+      padding: 10px;
+      color: black;
+  }
+  #right-pa {
+      text-align: right;
+      margin-top: 50px;
+  }
+    

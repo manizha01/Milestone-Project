@@ -1,10 +1,6 @@
 # Milestone Project
 
  ## Project Example Idea 
-### Personal portfolio site
-### Project title: Manizha Razban Portfolio-Full Stack Web Developer
-
-This project  is about my persoal portfolio and I put information about my education and work experence, the project purpose is putting information about my self in a very easy way to use
 
  # UX
 
